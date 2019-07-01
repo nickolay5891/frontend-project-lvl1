@@ -4,7 +4,9 @@
   "description": "game",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
   },
   "author": "grinp",
   "license": "ISC",
@@ -13,5 +15,11 @@
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5"
-  }
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ]
 }
