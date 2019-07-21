@@ -1,6 +1,6 @@
 {
-  "name": "project",
-  "version": "1.1.0",
+  "name": "grinp-project1-even",
+  "version": "1.2.0",
   "description": "game",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
