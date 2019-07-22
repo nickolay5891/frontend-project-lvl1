@@ -4,4 +4,4 @@
 
 [![Build Status](https://travis-ci.org/nickolay5891/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/nickolay5891/frontend-project-lvl1)
 
-[![asciicast](https://asciinema.org/a/ryZPKnuSyJY0t3XEfy4ddPn9u.svg)](https://asciinema.org/a/ryZPKnuSyJY0t3XEfy4ddPn9u)
+[![asciicast](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h.svg)](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h)
