@@ -4,4 +4,8 @@
 
 [![Build Status](https://travis-ci.org/nickolay5891/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/nickolay5891/frontend-project-lvl1)
 
+BRAIN-EVEN
 [![asciicast](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h.svg)](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h)
+
+BRAIN-CALC
+[![asciicast](https://asciinema.org/a/e4x1uzutvorgufUVuZmbXulan.svg)](https://asciinema.org/a/e4x1uzutvorgufUVuZmbXulan)
