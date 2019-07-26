@@ -42,7 +42,7 @@ $ brain-progression
 
 [![asciicast](https://asciinema.org/a/KNogQ4P35udQH6njAdb994NOK.svg)](https://asciinema.org/a/KNogQ4P35udQH6njAdb994NOK)
 
-##Brain-prime
+## Brain-prime
 
 ```sh
 $ brain-prime
