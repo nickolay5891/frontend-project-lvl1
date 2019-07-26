@@ -15,37 +15,32 @@ $ npm install -g grinp-brain-games
 ```sh
 $ brain-even
 ```
-
-[![asciicast](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h.svg)](https://asciinema.org/a/1QMyjYbjCTRuXfp8lmJiawd4h)
+[![asciicast](https://asciinema.org/a/N0REvPmt1i1xJH20NbeXAQI32.svg)](https://asciinema.org/a/N0REvPmt1i1xJH20NbeXAQI32)
 
 ## Brain-calc
 
 ```sh
 $ brain-calc
 ```
-
-[![asciicast](https://asciinema.org/a/e4x1uzutvorgufUVuZmbXulan.svg)](https://asciinema.org/a/e4x1uzutvorgufUVuZmbXulan)
+[![asciicast](https://asciinema.org/a/p0rw43EswITDAzSvxeWY4AS2k.svg)](https://asciinema.org/a/p0rw43EswITDAzSvxeWY4AS2k)
 
 ## Brain-gcd
 
 ```sh
 $ brain-gcd
 ```
-
-[![asciicast](https://asciinema.org/a/U0fOVRQa85oFPPHohxIkSdphg.svg)](https://asciinema.org/a/U0fOVRQa85oFPPHohxIkSdphg)
+[![asciicast](https://asciinema.org/a/FBus3eYPyXBmXNJUbxgcrrfkn.svg)](https://asciinema.org/a/FBus3eYPyXBmXNJUbxgcrrfkn)
 
 ## Brain-progression
 
 ```sh
 $ brain-progression
 ```
-
-[![asciicast](https://asciinema.org/a/KNogQ4P35udQH6njAdb994NOK.svg)](https://asciinema.org/a/KNogQ4P35udQH6njAdb994NOK)
+[![asciicast](https://asciinema.org/a/bLarH4Th0jSNcCW1p3v60grQt.svg)](https://asciinema.org/a/bLarH4Th0jSNcCW1p3v60grQt)
 
 ## Brain-prime
 
 ```sh
 $ brain-prime
 ```
-
-[![asciicast](https://asciinema.org/a/dEOOCowH7TEGBRnhpYPCkC8Gh.svg)](https://asciinema.org/a/dEOOCowH7TEGBRnhpYPCkC8Gh)
+[![asciicast](https://asciinema.org/a/gSJ28Pq9cbNmgqCnMEZxzkhyZ.svg)](https://asciinema.org/a/gSJ28Pq9cbNmgqCnMEZxzkhyZ)
