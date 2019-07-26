@@ -1,7 +1,11 @@
 {
   "name": "grinp-brain-games",
   "version": "1.6.0",
-  "description": "game",
+  "description": "projekt Brain games",
+  "keywords": [
+    "grinp",
+    "brain-games"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "test",
