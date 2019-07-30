@@ -6,7 +6,6 @@
     "grinp",
     "brain-games"
   ],
-  "main": "index.js",
   "scripts": {
     "test": "test",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -14,6 +13,9 @@
   },
   "author": "grinp",
   "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
@@ -35,8 +37,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "readline-sync": "^1.4.9"
-  }
+  ]
 }
