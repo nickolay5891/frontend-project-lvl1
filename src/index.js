@@ -7,8 +7,8 @@ export default (rulesGame, createQuestionAnswer) => {
   console.log(rulesGame);
   const userName = readlineSync.question('\nMay I have your name? ');
   console.log(`Hello, ${userName}!`);
-  let NumberOfQuestions = 0;
-  while (NumberOfQuestions < 3) {
+  const numberOfQuestions = 3;
+  for (let i = 0; i < numberOfQuestions; i += 1) {
     const QuestionAnswer = createQuestionAnswer();
     const question = QuestionAnswer[0];
     const correctAnswer = QuestionAnswer[1];
@@ -16,7 +16,6 @@ export default (rulesGame, createQuestionAnswer) => {
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');
-      NumberOfQuestions += 1;
     } else {
       console.log(`'${answer}' is wrong answer;(. Correct answer was '${correctAnswer}'`);
       console.log(`Let,s try again, ${userName}!`);
