@@ -1,24 +1,24 @@
 import game, { getRandomNumber } from '..';
 
 const task = 'What is the result of the expression?';
-const createQuestionAnswerCalc = () => {
-  const allAction = ['+', '-', '*'];
-  const numberAction = getRandomNumber(0, allAction.length - 1);
-  const action = allAction[numberAction];
+const createQuestionAnswer = () => {
+  const Actions = ['+', '-', '*'];
+  const numberAction = getRandomNumber(0, Actions.length - 1);
+  const action = Actions[numberAction];
   const RandomNumber1 = getRandomNumber(0, 30);
   const RandomNumber2 = getRandomNumber(0, 30);
-  const questionsCalc = `${RandomNumber1} ${action} ${RandomNumber2}`;
-  let correctAnswerCalc;
+  const question = `${RandomNumber1} ${action} ${RandomNumber2}`;
+  let correctAnswer;
   switch (numberAction) {
     case 0:
-      correctAnswerCalc = `${RandomNumber1 + RandomNumber2}`;
+      correctAnswer = `${RandomNumber1 + RandomNumber2}`;
       break;
     case 1:
-      correctAnswerCalc = `${RandomNumber1 - RandomNumber2}`;
+      correctAnswer = `${RandomNumber1 - RandomNumber2}`;
       break;
     default:
-      correctAnswerCalc = `${RandomNumber1 * RandomNumber2}`;
+      correctAnswer = `${RandomNumber1 * RandomNumber2}`;
   }
-  return [questionsCalc, correctAnswerCalc];
+  return [question, correctAnswer];
 };
-export default () => game(task, createQuestionAnswerCalc);
+export default () => game(task, createQuestionAnswer);

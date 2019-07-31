@@ -1,7 +1,7 @@
 import game, { getRandomNumber } from '..';
 
 const task = 'What number is missing in the progression?';
-const createQuestionAnswerProgression = () => {
+const createQuestionAnswer = () => {
   const firstNumberProgression = getRandomNumber(0, 10);
   const stepProgression = getRandomNumber(1, 10);
   const progressionLength = 10;
@@ -10,9 +10,9 @@ const createQuestionAnswerProgression = () => {
     progression[i] = progression[i - 1] + stepProgression;
   }
   const index = getRandomNumber(0, progressionLength - 1);
-  const correctAnswerProgression = `${progression[index]}`;
+  const correctAnswer = `${progression[index]}`;
   progression.splice(index, 1, '..');
-  const questionsProgression = `${progression.join(' ')}`;
-  return [questionsProgression, correctAnswerProgression];
+  const question = `${progression.join(' ')}`;
+  return [question, correctAnswer];
 };
-export default () => game(task, createQuestionAnswerProgression);
+export default () => game(task, createQuestionAnswer);
