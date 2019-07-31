@@ -1,6 +1,6 @@
 import game, { getRandomNumber } from '..';
 
-const rulesGameGcd = 'Find the greatest common divisor of given numbers.';
+const task = 'Find the greatest common divisor of given numbers.';
 const createQuestionAnswerGcd = () => {
   const RandomNumber1 = getRandomNumber(0, 100);
   const RandomNumber2 = getRandomNumber(0, 100);
@@ -14,4 +14,4 @@ const createQuestionAnswerGcd = () => {
   const correctAnswerGcd = `${searchGcd(RandomNumber1, RandomNumber2)}`;
   return [questionsGcd, correctAnswerGcd];
 };
-export default () => game(rulesGameGcd, createQuestionAnswerGcd);
+export default () => game(task, createQuestionAnswerGcd);

@@ -1,6 +1,6 @@
 import game, { getRandomNumber } from '..';
 
-const rulesGameCalc = 'What is the result of the expression?';
+const task = 'What is the result of the expression?';
 const createQuestionAnswerCalc = () => {
   const allAction = ['+', '-', '*'];
   const numberAction = getRandomNumber(0, allAction.length - 1);
@@ -21,4 +21,4 @@ const createQuestionAnswerCalc = () => {
   }
   return [questionsCalc, correctAnswerCalc];
 };
-export default () => game(rulesGameCalc, createQuestionAnswerCalc);
+export default () => game(task, createQuestionAnswerCalc);

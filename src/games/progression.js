@@ -1,6 +1,6 @@
 import game, { getRandomNumber } from '..';
 
-const rulesGameProgression = 'What number is missing in the progression?';
+const task = 'What number is missing in the progression?';
 const createQuestionAnswerProgression = () => {
   const firstNumberProgression = getRandomNumber(0, 10);
   const stepProgression = getRandomNumber(1, 10);
@@ -15,4 +15,4 @@ const createQuestionAnswerProgression = () => {
   const questionsProgression = `${progression.join(' ')}`;
   return [questionsProgression, correctAnswerProgression];
 };
-export default () => game(rulesGameProgression, createQuestionAnswerProgression);
+export default () => game(task, createQuestionAnswerProgression);
