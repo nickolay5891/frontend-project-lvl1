@@ -2,18 +2,18 @@ import game, { getRandomNumber } from '..';
 
 const task = 'What is the result of the expression?';
 const createQuestionAnswer = () => {
-  const Actions = ['+', '-', '*'];
-  const numberAction = getRandomNumber(0, Actions.length - 1);
-  const action = Actions[numberAction];
+  const actions = ['+', '-', '*'];
+  const numberAction = getRandomNumber(0, actions.length - 1);
+  const action = actions[numberAction];
   const RandomNumber1 = getRandomNumber(0, 30);
   const RandomNumber2 = getRandomNumber(0, 30);
   const question = `${RandomNumber1} ${action} ${RandomNumber2}`;
   let correctAnswer;
-  switch (numberAction) {
-    case 0:
+  switch (action) {
+    case '+':
       correctAnswer = `${RandomNumber1 + RandomNumber2}`;
       break;
-    case 1:
+    case '-':
       correctAnswer = `${RandomNumber1 - RandomNumber2}`;
       break;
     default:
