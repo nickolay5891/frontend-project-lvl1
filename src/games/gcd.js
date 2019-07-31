@@ -8,10 +8,10 @@ const searchGcd = (a, b) => {
   return searchGcd(b, a % b);
 };
 const createQuestionAnswer = () => {
-  const RandomNumber1 = getRandomNumber(0, 100);
-  const RandomNumber2 = getRandomNumber(0, 100);
-  const question = `${RandomNumber1} ${RandomNumber2}`;
-  const correctAnswer = `${searchGcd(RandomNumber1, RandomNumber2)}`;
+  const number1 = getRandomNumber(0, 100);
+  const number2 = getRandomNumber(0, 100);
+  const question = `${number1} ${number2}`;
+  const correctAnswer = `${searchGcd(number1, number2)}`;
   return [question, correctAnswer];
 };
 export default () => game(task, createQuestionAnswer);
