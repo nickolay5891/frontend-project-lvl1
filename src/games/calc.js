@@ -1,4 +1,5 @@
-import game, { getRandomNumber } from '..';
+import game from '..';
+import getRandomNumber from '../utils';
 
 const task = 'What is the result of the expression?';
 const createQuestionAnswer = () => {

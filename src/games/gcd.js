@@ -1,4 +1,5 @@
-import game, { getRandomNumber } from '..';
+import game from '..';
+import getRandomNumber from '../utils';
 
 const task = 'Find the greatest common divisor of given numbers.';
 const searchGcd = (a, b) => {

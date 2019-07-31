@@ -1,4 +1,5 @@
-import game, { getRandomNumber } from '..';
+import game from '..';
+import getRandomNumber from '../utils';
 
 const task = 'Answer "yes" if number even otherwise answer "no".';
 const isEven = number => number % 2 === 0;

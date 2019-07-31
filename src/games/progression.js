@@ -1,4 +1,5 @@
-import game, { getRandomNumber } from '..';
+import game from '..';
+import getRandomNumber from '../utils';
 
 const task = 'What number is missing in the progression?';
 const createQuestionAnswer = () => {
