@@ -3,14 +3,13 @@ import getRandomNumber from '../utils';
 
 const task = 'What is the result of the expression?';
 const createQuestionAnswer = () => {
-  const actions = ['+', '-', '*'];
-  const numberAction = getRandomNumber(0, actions.length - 1);
-  const action = actions[numberAction];
+  const operations = ['+', '-', '*'];
+  const operation = operations[getRandomNumber(0, operations.length - 1)];
   const number1 = getRandomNumber(0, 30);
   const number2 = getRandomNumber(0, 30);
-  const question = `${number1} ${action} ${number2}`;
+  const question = `${number1} ${operation} ${number2}`;
   let correctAnswer;
-  switch (action) {
+  switch (operation) {
     case '+':
       correctAnswer = `${number1 + number2}`;
       break;
