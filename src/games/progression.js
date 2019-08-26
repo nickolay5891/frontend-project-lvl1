@@ -11,9 +11,9 @@ const createQuestionAnswer = () => {
   for (let i = 0; i < progressionLength; i += 1) {
     progression[i] = firstElement + step * i;
   }
-  const hiddenNumberIndex = getRandomNumber(0, progressionLength - 1);
-  const correctAnswer = progression[hiddenNumberIndex].toString();
-  progression.splice(hiddenNumberIndex, 1, '..');
+  const hiddenElementIndex = getRandomNumber(0, progressionLength - 1);
+  const correctAnswer = progression[hiddenElementIndex].toString();
+  progression.splice(hiddenElementIndex, 1, '..');
   const question = progression.join(' ');
   return [question, correctAnswer];
 };

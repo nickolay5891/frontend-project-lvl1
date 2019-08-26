@@ -2,23 +2,25 @@ import game from '..';
 import getRandomNumber from '../utils';
 
 const task = 'What is the result of the expression?';
+const operations = ['+', '-', '*'];
+
 const createQuestionAnswer = () => {
-  const operations = ['+', '-', '*'];
   const operation = operations[getRandomNumber(0, operations.length - 1)];
   const number1 = getRandomNumber(0, 30);
   const number2 = getRandomNumber(0, 30);
   const question = `${number1} ${operation} ${number2}`;
-  let correctAnswer;
+  let answer;
   switch (operation) {
     case '+':
-      correctAnswer = `${number1 + number2}`;
+      answer = number1 + number2;
       break;
     case '-':
-      correctAnswer = `${number1 - number2}`;
+      answer = number1 - number2;
       break;
     default:
-      correctAnswer = `${number1 * number2}`;
+      answer = number1 * number2;
   }
+  const correctAnswer = answer.toString();
   return [question, correctAnswer];
 };
 export default () => game(task, createQuestionAnswer);
